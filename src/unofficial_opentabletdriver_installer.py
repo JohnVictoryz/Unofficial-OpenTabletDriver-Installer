@@ -13,10 +13,10 @@ if "Windows" in platform:
     import zipfile
 
 dotnet_win_installer_url = "https://opentabletdriver.net/Framework"
-dotnet_win_installer_filename = "%temp%\dotnet.exe"
+dotnet_win_installer_filename = "%temp%\\dotnet.exe"
 opentabletdriver_win_url = "https://opentabletdriver.net/Release/Download/OpenTabletDriver.win-x64.zip"
-opentabletdriver_win_filename = "%temp%\OpenTabletDriver.zip"
-startmenu_folder = "C:\ProgramData\Microsoft\Windows\Start Menu\Programs"
+opentabletdriver_win_filename = "%temp%\\OpenTabletDriver.zip"
+startmenu_folder = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs"
 bat_file_url = ""
 bat_file_name = "%localappdata%\OpenTabletDriver\OpenTabletDriver.bat"
 opentabletdriver_debian_url = "https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.3.0/OpenTabletDriver.deb"
